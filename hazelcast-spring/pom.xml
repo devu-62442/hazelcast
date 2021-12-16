@@ -21,7 +21,7 @@
     <parent>
         <groupId>com.hazelcast</groupId>
         <artifactId>hazelcast-root</artifactId>
-        <version>3.2-RC2-SNAPSHOT</version>
+        <version>3.12.11</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
@@ -31,7 +31,7 @@
 
     <properties>
         <!--<org.springframework.version>2.5.6</org.springframework.version>-->
-        <org.springframework.version>3.1.0.RELEASE</org.springframework.version>
+        <org.springframework.version>3.2.9.RELEASE</org.springframework.version>
         <jsr250.api.version>1.0</jsr250.api.version>
         <hibernate.core.version>3.5.0-Final</hibernate.core.version>
         <org.mongodb.version>2.7.3</org.mongodb.version>
