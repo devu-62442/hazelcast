@@ -208,8 +208,7 @@
                         </goals>
                         <configuration>
                             <target>
-                                <copy file="${basedir}/src/main/resources/hazelcast-default.xml"
-                                      tofile="${basedir}/target/hazelcast.xml"/>
+                                <copy file="${basedir}/src/main/resources/hazelcast-default.xml" tofile="${basedir}/target/hazelcast.xml"/>
                             </target>
                         </configuration>
                     </execution>
@@ -253,7 +252,7 @@
         <dependency>
             <groupId>org.codehaus.groovy</groupId>
             <artifactId>groovy-all</artifactId>
-            <version>2.1.8</version>
+            <version>2.4.7</version>
             <scope>provided</scope>
             <optional>true</optional>
         </dependency>
